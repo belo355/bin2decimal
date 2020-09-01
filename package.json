@@ -1,0 +1,19 @@
+{
+  "name": "Bin2Dec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "npm webpack-dev-server --mode development", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
